@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Externa</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #Conteudo{
+            height: 60vh;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .card{
+            background-color: gray;
+            color: white;
+            height: auto;
+            width: 30vh;
+            border-radius: 3vh; 
+            padding: 2vh;
+            padding-bottom: 4vh;
+            margin-left: 4vh;
+            margin-top: 10vh;
+        }
+        .card h1{
+            border-bottom: white solid 0.4vh;
+        }
+    </style>
+</head>
+<body>
+    <!-- Para buscar um usuario -->
+    <div class="formulario">
+        <input id="filtro" type="text">
+        <button id="busca">Buscar usuario</button>
+
+        <input type="checkbox" id="LangBusca">
+        <div>Buscar por Linguagem</div>
+    </div>
+
+    <div id="Conteudo">
+
+    </div>
+
+<script src="./api.js" type="module"></script>
+</body>
+</html>

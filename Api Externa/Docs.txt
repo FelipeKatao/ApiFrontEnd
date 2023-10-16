@@ -1,0 +1,8 @@
+https://mocki.io/fake-json-api
+https://jsonplaceholder.typicode.com/
+https://fakestoreapi.com/docs
+https://mocki.io/
+
+    fetch('https://fakestoreapi.com/users')
+    .then(res=>res.json())
+    .then(json=>console.log(json))
